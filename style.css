@@ -1,82 +1,77 @@
 * {
-   box-sizing: border-box;
-   }
+  box-sizing: border-box;
+}
 h1 {
-position: relative;
-top: 10px;
-text-align: center;
-color: black;
-margin: 50px;
+  top: 10px;
+  text-align: center;
+  color: black;
+  margin: 20px 5px 100px 5px;
 }
 .row {
-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-#section1 {
-  position: relative;
-  text-align: right;
-  width: 250px;
-  border: solid black 2.5px;
-  background-color: grey;
-  margin: 20px;
-color: pink;
-padding:20px 5px 20px 5px;
-}
-#section2 {
-  text-align: right;
-  width: 250px;
-  border: solid black 2.5px;
-  background-color: grey;
-  margin: 20px;
+.margin {
+  width: 33%;
   padding: 10px;
-  color: yellow;
+ 
+  
+  
 }
-#section3 {
-  position: relative;
-text-align: right;
-  width: 250px;
-  border: solid black 2.5px;
+section {
+  padding: 30px 10px 20px 10px;
   background-color: grey;
-  margin: 20px;
-  padding: 10px;
-  color: red;
-  }
-#p1 {
-position: relative;
-bottom: 0px;
-left: 0px;
-color: black;
-width: 33.33%;
-height: 40px;
+  position: relative;
+  color: black;
+  border: solid black 2.5px;
+  height: 150px;
 }
-#p2 {
-position: relative;
-bottom: 0px;
-left: 0px;
-color: black;
-width: 33.33%;
-height: 40px;
- }
-#p3 {
-position: relative;
-bottom: 0px;
-left: 0px;
-color: black;
-width: 33.33%;
-height: 40px;
-}
-.bgred{
+.bgred {
+  color: bisque;
   padding: 5px;
   background-color: red;
   position: absolute;
-  top:0px;
-  right:0px;
-
+  top: 0px;
+  right: 0px;
+  border: solid black 1.5px;
 }
 
-.bgblue{
+.bgblue {
   background-color: blueviolet;
-
-}.bgyellow{
+  color: aqua;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 5px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: solid black 1.5px;
+}
+.bgyellow {
   background-color: yellow;
-
+  color: brown;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: solid black 1.5px;
+  padding: 5px;
+}
+p { 
+  width: 100%;
+}
+@media (max-width: 992px) and (min-width: 768px) { 
+  .margin {
+    width: 50%;
+  }
+  .w-100 {
+    width: 100%;
+  }  
+}
+@media (max-width: 767px) { 
+  .margin { 
+    width: 100%;
+  }
 }
